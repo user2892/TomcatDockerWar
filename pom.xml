@@ -30,7 +30,7 @@
   <build>
     <finalName>TestJenkinsWar</finalName>
   </build>
-</project>
+
 <distributionManagement>
        <repository>
          <id>internal.repo</id>
@@ -38,5 +38,5 @@
          <url>file://home/tomuser/myartifacts/</url>
        </repository>
    </distributionManagement>
-
+</project>
 
