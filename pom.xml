@@ -7,18 +7,13 @@
   <version>0.0.2-SNAPSHOT</version>
   <name>JenkinsWar Maven Webapp</name>
   <url>http://maven.apache.org</url>
-  <reporting>
-    <plugins>
-        <plugin>
-            <groupId>org.apache.maven.plugins</groupId>
-            <artifactId>maven-checkstyle-plugin</artifactId>
-            <version>3.0.0</version>
-            <configuration>
-                <configLocation>file:///C/Users/Nivaan/jenkins/workspace/TomcatDeployment/checkstyle.xml</configLocation>
-            </configuration>
-        </plugin>
-    </plugins>
-</reporting>
+<distributionManagement>
+       <repository>
+         <id>internal.repo</id>
+         <name>Internal repo</name>
+         <url>file:///home/tomuser/myartifacts/</url>
+       </repository>
+   </distributionManagement>
   <dependencies>
     <dependency>
       <groupId>junit</groupId>
@@ -27,13 +22,6 @@
       <scope>test</scope>
     </dependency>
   </dependencies>
-  <distributionManagement>
-       <repository>
-         <id>internal.repo</id>
-         <name>Internal repo</name>
-         <url>file:///home/tomuser/myartifacts/</url>
-       </repository>
-   </distributionManagement>
   <build>
     <finalName>TestJenkinsWar</finalName>
   </build>
