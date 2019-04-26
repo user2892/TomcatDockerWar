@@ -35,7 +35,7 @@
        <repository>
          <id>internal.repo</id>
          <name>Internal repo</name>
-         <url>file://home/tomuser/myartifacts/</url>
+         <url>file:///home/tomuser/myartifacts/</url>
        </repository>
    </distributionManagement>
 </project>
