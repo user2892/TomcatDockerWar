@@ -27,16 +27,15 @@
       <scope>test</scope>
     </dependency>
   </dependencies>
-  <build>
-    <finalName>TestJenkinsWar</finalName>
-  </build>
-
-<distributionManagement>
+  <distributionManagement>
        <repository>
          <id>internal.repo</id>
          <name>Internal repo</name>
          <url>file:///home/tomuser/myartifacts/</url>
        </repository>
    </distributionManagement>
+  <build>
+    <finalName>TestJenkinsWar</finalName>
+  </build>
 </project>
 
