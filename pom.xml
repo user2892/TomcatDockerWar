@@ -13,6 +13,11 @@
     <!-- CHANGE HERE by your team nexus server -->
     <url>http://169.47.63.233:8081/#admin/repository/repositories:maven-releases</url>
   </repository>
+       <repository>
+         <id>internal.repo</id>
+         <name>Internal repo</name>
+         <url>file://usr/local/myartifacts/</url>
+       </repository>
   <snapshotRepository>
     <id>snapshots</id>
     <!-- CHANGE HERE by your team nexus server -->
