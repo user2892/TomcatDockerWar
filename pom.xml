@@ -9,12 +9,6 @@
   <url>http://maven.apache.org</url>
 <distributionManagement>
   <repository>
-    <id>nexus</id>
-    <!-- CHANGE HERE by your team nexus server -->
-    <url>http://169.47.63.233:8081/repository/maven-snapshots/</url>
-  </repository>
-  <distributionManagement>
-  <repository>
     <id>releases</id>
     <!-- CHANGE HERE by your team nexus server -->
     <url>http://169.47.63.233:8081/repository/maven-releases</url>
