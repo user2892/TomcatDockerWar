@@ -11,7 +11,7 @@
   <repository>
     <id>nexus</id>
     <!-- CHANGE HERE by your team nexus server -->
-    <url>http://169.47.63.233:8081/repository/maven-releases/</url>
+    <url>http://169.47.63.233:8081/repository/maven-snapshots/</url>
   </repository>
 </distributionManagement>
   <dependencies>
